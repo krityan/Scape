@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
+  "modid": "scape",
+  "name": "Scape Overhaul Mod",
+  "description": "Gameplay and progression overhaul.",
+  "version": "0.1",
+  "mcversion": "1.11",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Kritya", "Gigsey"],
+  "credits": "Coding: Kritya, Art: Gigsey",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
