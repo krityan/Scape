@@ -1,5 +1,6 @@
 package kritya.scape;
 
+import kritya.scape.init.ModItems;
 import kritya.scape.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -19,20 +20,22 @@ public class Scape {
 	public static CommonProxy proxy;
 	
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent event)
-	{
+	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre Init");
+		
+		ModItems.init();
+		ModItems.register();
 	}
 	
 	@EventHandler
-	public void init(FMLInitializationEvent event)
-	{
+	public void init(FMLInitializationEvent event) {
 		System.out.println("Init");
+		
+		proxy.init();
 	}
 	
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent event)
-	{
+	public void postInit(FMLPostInitializationEvent event) {
 		System.out.println("Post Init");	
 	}
 }
