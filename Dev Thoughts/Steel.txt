@@ -1,0 +1,21 @@
+The first thing I am looking at here is the lackluster mineral progression in MineCraft. After 20 minutes a full set of iron is obtained and an hour later most of it replaced with diamond and iron's use is greatly reduced.
+
+The goal of restructuring this progression is twofold, keep Iron useful past it's stage in tool progression and add more levels of progression so that the answer isn't to just delve to block height 13 and strip mine for diamonds. Diamonds will remain useful but tools made of only diamonds look unlikely. Maybe augmenting a tool with diamond as a replacement, however there are other fictional materials, such as mithril, that would fill the ultimate mineral slot better than diamond.
+
+So the next idea encapsulates both of these goals, the next level of progression past iron should be steel. 
+
+The method of making steel according to www.keenovens.com is: 'Iron ore is first mined from the ground. It is then smelted in blast furnaces where the impurities are removed and carbon is added. In fact, a very simple definition of steel is "iron alloyed with carbon, usually less than 1%."'.
+
+So we need iron, carbon and a blast furnace. However further research shows that blast furnaces were designed to make smelting more efficient, rather than enable further smelting. So that could be subbed out for the standard furnace in minecraft, but how would we make it distinquish from turning iron ore to iron, and turning it to steel? 
+
+One posibility is to re-smelt the iron bar for a full coal's worth of time, this would cause the cost of Steel to be 1 coal, 1 iron plus the fuel used to smelt the iron. However this process is closer to refining rather than creating an alloy. Which leads me to the next idea, an alloy furnace.
+
+An alloy furnace will take multiple inputs, in this case 1 iron ore and 1 coal, and smelt them together to form one (or more, maybe) product(s). Giving us a steel ingot. 
+
+Using this steel we can create an anvil to forge the materials into stronger tools than just sticking 3 bits of iron to a stick. This will be represented by a jump in durability, which would lead to incredibly durable tools in current MineCraft values, meaning the default materials will needed to be modified.
+
+However, let's first focus on our steel creation process.
+
+This rounds up the goals for the current time:
+- Add steel to the mod
+- Add an alloy furnace to the mod
