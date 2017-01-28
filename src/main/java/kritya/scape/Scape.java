@@ -1,5 +1,6 @@
 package kritya.scape;
 
+import kritya.scape.init.ModBlocks;
 import kritya.scape.init.ModItems;
 import kritya.scape.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
@@ -25,6 +26,9 @@ public class Scape {
 		
 		ModItems.init();
 		ModItems.register();
+		
+		ModBlocks.init();
+		ModBlocks.register();
 	}
 	
 	@EventHandler
