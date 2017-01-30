@@ -1,4 +1,6 @@
 item.bronzebar.name=Bronze Bar
 item.steelbar.name=Steel Bar
+item.mithrilbar.name=Mithril Bar
+item.adamantitebar.name=Adamantite Bar
 
 tile.alloyfurnace.name=Alloy Furnace
