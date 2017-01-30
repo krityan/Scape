@@ -2,7 +2,9 @@ package kritya.scape.items;
 
 public enum ScapeItems {
 	BRONZEBAR("bronzebar", "bronzebar"),
-	STEELBAR("steelbar", "steelbar");
+	STEELBAR("steelbar", "steelbar"),
+	MITHRILBAR("mithrilbar", "mithrilbar"),
+	ADAMANTITEBAR("adamantitebar", "adamantitebar");
 	
 	private String unlocalizedName;
 	private String registryName;
