@@ -2,7 +2,9 @@ package kritya.scape.blocks;
 
 public enum ScapeBlocks {
 
-	ALLOYFURNACE("alloyfurnace", "alloyfurnace");
+	ALLOYFURNACE("alloyfurnace", "alloyfurnace"),
+	MITHRILORE("mithrilore", "mithrilore"),
+	ADAMANTITEORE("adamantiteore", "adamantiteore");
 	
 	private String unlocalizedName;
 	private String registryName;

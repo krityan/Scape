@@ -12,13 +12,19 @@ public class ModBlocks {
 
 	//blocks
 	public static Block alloyFurnace;
+	public static Block mithrilOre;
+	public static Block adamantiteOre;
 
 	public static void init() {
 		alloyFurnace = new AlloyFurnace();
+		mithrilOre = new MithrilOre();
+		adamantiteOre = new AdamantiteOre();
 	}
 	
 	public static void register() {
 		register(alloyFurnace);
+		register(mithrilOre);
+		register(adamantiteOre);
 	}
 	
 	private static void register(Block block){
@@ -30,6 +36,8 @@ public class ModBlocks {
 	
 	public static void registerRenders() {
 		registerRender(alloyFurnace);
+		registerRender(mithrilOre);
+		registerRender(adamantiteOre);
 	}
 	
 	private static void registerRender(Block block) {
