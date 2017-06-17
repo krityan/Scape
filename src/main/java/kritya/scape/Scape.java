@@ -2,6 +2,7 @@ package kritya.scape;
 
 import kritya.scape.init.ModBlocks;
 import kritya.scape.init.ModItems;
+import kritya.scape.init.ModTools;
 import kritya.scape.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -23,6 +24,9 @@ public class Scape {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		System.out.println("Pre Init");
+		
+		ModTools.init();
+		ModTools.register();
 		
 		ModItems.init();
 		ModItems.register();
