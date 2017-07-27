@@ -1,15 +1,13 @@
-package kritya.scape.blocks;
+package kritya.scape.items.tools;
 
-public enum ScapeBlocks {
+public enum ScapeTools {
 
-	ALLOYFURNACE("alloyfurnace", "alloyfurnace"),
-	MITHRILORE("mithrilore", "mithrilore"),
-	ADAMANTITEORE("adamantiteore", "adamantiteore");
+	STEELSWORD("steelsword","steelsword");
 	
 	private String unlocalizedName;
 	private String registryName;
 	
-	ScapeBlocks(String unlocalizedName, String registryName)
+	private ScapeTools(String unlocalizedName, String registryName)
 	{
 		this.unlocalizedName = unlocalizedName;
 		this.registryName = registryName;

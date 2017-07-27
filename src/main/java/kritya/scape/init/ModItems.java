@@ -8,12 +8,13 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 	
-	//items
+	// all the items added by the mod
 	public static Item bronzeBar;
 	public static Item steelBar;
 	public static Item mithrilBar;
 	public static Item adamantiteBar;
 
+	// intialise all the items
 	public static void init() {
 		bronzeBar = new BronzeBar();
 		steelBar = new SteelBar();
@@ -21,6 +22,7 @@ public class ModItems {
 		adamantiteBar = new AdamantiteBar();
 	}
 	
+	// register  all the items
 	public static void register() {
 		GameRegistry.register(bronzeBar);
 		GameRegistry.register(steelBar);
@@ -28,6 +30,7 @@ public class ModItems {
 		GameRegistry.register(adamantiteBar);
 	}
 	
+	// register alll the items renders
 	public static void registerRenders() {
 		registerRender(bronzeBar);
 		registerRender(steelBar);
@@ -35,7 +38,11 @@ public class ModItems {
 		registerRender(adamantiteBar);
 	}
 	
-	private static void registerRender(Item item) {
+	 /**
+	  * register the render for the item passed as a parameter
+	  * @param item the item to register the render for
+	  */
+	 private static void registerRender(Item item) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}
 }
