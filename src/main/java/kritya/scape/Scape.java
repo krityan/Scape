@@ -1,6 +1,7 @@
 package kritya.scape;
 
 import kritya.scape.init.ModBlocks;
+import kritya.scape.init.ModCrafting;
 import kritya.scape.init.ModItems;
 import kritya.scape.init.ModTools;
 import kritya.scape.proxy.CommonProxy;
@@ -40,6 +41,7 @@ public class Scape {
 		System.out.println("Init");
 		
 		proxy.init();
+		ModCrafting.register();
 	}
 	
 	@EventHandler

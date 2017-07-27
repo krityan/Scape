@@ -1,6 +1,7 @@
 package kritya.scape.items;
 
 public enum ScapeItems {
+	KNIFE("knife", "knife"),
 	BRONZEBAR("bronzebar", "bronzebar"),
 	STEELBAR("steelbar", "steelbar"),
 	MITHRILBAR("mithrilbar", "mithrilbar"),

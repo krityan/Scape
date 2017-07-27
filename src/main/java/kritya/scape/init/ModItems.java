@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
 	
 	// all the items added by the mod
+	public static Item knife;
 	public static Item bronzeBar;
 	public static Item steelBar;
 	public static Item mithrilBar;
@@ -16,6 +17,7 @@ public class ModItems {
 
 	// intialise all the items
 	public static void init() {
+	    knife = new Knife();
 		bronzeBar = new BronzeBar();
 		steelBar = new SteelBar();
 		mithrilBar = new MithrilBar();
@@ -24,6 +26,7 @@ public class ModItems {
 	
 	// register  all the items
 	public static void register() {
+	    GameRegistry.register(knife);
 		GameRegistry.register(bronzeBar);
 		GameRegistry.register(steelBar);
 		GameRegistry.register(mithrilBar);
@@ -32,6 +35,7 @@ public class ModItems {
 	
 	// register alll the items renders
 	public static void registerRenders() {
+	    registerRender(knife);
 		registerRender(bronzeBar);
 		registerRender(steelBar);
 		registerRender(mithrilBar);

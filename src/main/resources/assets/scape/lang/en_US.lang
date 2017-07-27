@@ -1,7 +1,10 @@
+item.knife.name=Knife
 item.bronzebar.name=Bronze Bar
 item.steelbar.name=Steel Bar
 item.mithrilbar.name=Mithril Bar
 item.adamantitebar.name=Adamantite Bar
+
+item.steelsword.name=Steel Sword
 
 tile.alloyfurnace.name=Alloy Furnace
 tile.mithrilore.name=Mithril Ore
